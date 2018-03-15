@@ -1,0 +1,82 @@
+COMP 302
+Assignment 1
+Q1
+_______________________________________________________________________________
+Simon Zheng
+260744353
+
+Jacob Sanz-Robinson
+260706158
+_______________________________________________________________________________
+
+1.
+File "hw1-fixme.ml", line 35, characters 30-32:
+Error: Syntax error
+
+Go to line 35 at columns 30-32, where "to" is not a valid keyword here. Pattern
+matching syntax should be "match n with".
+_______________________________________________________________________________
+2.
+File "hw1-fixme.ml", line 36, characters 6-8:
+Error: Syntax error
+
+Go to line 36 at columns 6-8, where the arrow should be "->" instead of "=>" as
+this is not Scala.
+_______________________________________________________________________________
+3.
+File "hw1-fixme.ml", line 37, characters 6-8:
+Error: Syntax error
+
+Same as previous.
+_______________________________________________________________________________
+4.
+File "hw1-fixme.ml", line 54, characters 4-6:
+Error: Syntax error
+
+Different match cases must be separated by a "|" character (each match case
+line begins with this character).
+_______________________________________________________________________________
+5.
+File "hw1-fixme.ml", line 55, characters 4-6:
+Error: Syntax error
+
+Same as previous.
+_______________________________________________________________________________
+6.
+File "hw1-fixme.ml", line 35, characters 28-29:
+Error: Unbound value n
+
+Syntax Error
+The function declaration is missing the value "n". In fact, there is a lonely
+"int" that could be assumed to be where the "n" should be.
+_______________________________________________________________________________
+7.
+File "hw1-fixme.ml", line 37, characters 15-18:
+Error: Unbound value inc
+Hint: Did you mean incr?
+
+Syntax Error
+The function is very clearly meant to be recursive, and as such requires the
+"rec" keyword after "let" in the function declaration. The hint here is not
+relevant and is probably the compiler guessing a standard library function was
+what was wanted.
+_______________________________________________________________________________
+8.
+File "hw1-fixme.ml", line 37, characters 14-27:
+Error: This expression has type int -> int
+       but an expression was expected of type int
+
+Type Error
+The compiler inferred the expression to be an int, as hinted by the "+"
+operators. But "inc (n - 1)" is only a partially applied "inc" function as it is
+missing its last argument, "k". We just use 0 to make it into "inc (n - 1) 0".
+Now it returns/outputs the correct result.
+_______________________________________________________________________________
+9.
+File "hw1-fixme.ml", line 55, characters 9-20:
+Error: This expression has type float but an expression was expected of type
+         int
+
+Type Error
+The base cases output a float, but the function is recursive and "fib" takes an
+an int which is not the same type. It should output an int.

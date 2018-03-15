@@ -1,0 +1,27 @@
+COMP 302
+Assignment 1
+Q0
+_______________________________________________________________________________
+Simon Zheng
+260744353
+
+Jacob Sanz-Robinson
+260706158
+_______________________________________________________________________________
+
+Scenario 1:
+  It could be argued that too much detail was given by both parties. Bob and Tom
+  were too specific about their problem and Hanna gave back the exact answer
+  instead of simply giving hints. Bob and Tom are already in teams of two.
+
+Scenario 2:
+  Once again, they are all at fault. Tom for obviously plagiarising, but also
+  Bob and Anne for not protecting their work by putting it in a public
+  repository.
+
+Scenario 3:
+  Matt and Abbey, who aren't in the same team, are mainly at fault. Abbey for
+  giving the solution, especially the exact code, and Matt for taking it. John
+  could also be argued for not having checked that the code wasn't plagiarised,
+  but Matt could've hidden it. Unfortunately they are still in the same team
+  so Matt jeopardised John's credibility and studies by doing so.
